@@ -45,6 +45,12 @@ $card-bg: $dark;
 $card-color: $info;
 $card-border-radius: 2rem;
 
+$danger: #ff0077;
+
+$theme-colors: (
+  danger: $danger,
+);
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
