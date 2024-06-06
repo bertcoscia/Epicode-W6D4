@@ -57,6 +57,10 @@ $custom-theme-colors: (
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
+$badge-border-radius: 50px;
+$input-border-radius: 50px;
+$btn-border-radius: 50px;
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
