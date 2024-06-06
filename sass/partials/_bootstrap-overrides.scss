@@ -67,6 +67,20 @@ $badge-border-radius: 50px;
 $input-border-radius: 50px;
 $btn-border-radius: 50px;
 
+$additional-grid-breakpoints: (
+  3xl: 1600px,
+  4xl: 1800px,
+);
+
+$grid-breakpoints: map-merge($grid-breakpoints, $additional-grid-breakpoints);
+
+$additional-container-max-widths: (
+  3xl: 1520px,
+  4xl: 1720px,
+);
+
+$container-max-widths: map-merge($container-max-widths, $additional-container-max-widths);
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
