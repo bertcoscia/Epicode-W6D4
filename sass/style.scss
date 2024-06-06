@@ -1,5 +1,10 @@
 @import "./partials/bootstrap-overrides";
 
-.card img {
-  border-radius: 2rem 2rem 0 0;
+#week-deal {
+  .card {
+    .card-img-top {
+      border-top-left-radius: subtract($card-border-radius, 6px);
+      border-top-right-radius: subtract($card-border-radius, 6px);
+    }
+  }
 }

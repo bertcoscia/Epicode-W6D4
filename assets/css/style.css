@@ -14349,6 +14349,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.card img {
-  border-radius: 2rem 2rem 0 0;
+#week-deal .card .card-img-top {
+  border-top-left-radius: calc(2rem - 6px);
+  border-top-right-radius: calc(2rem - 6px);
 }/*# sourceMappingURL=style.css.map */
