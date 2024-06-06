@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/* $danger: #ff0077;
+$info: #00ffea;
+$light: #f3eeff;
+$epicode-1: #5726c3;
+$epicode-2: #8625a5;
+$epicode-3: #cb2376; */
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -14344,5 +14350,5 @@ textarea.form-control-lg {
   }
 }
 .card img {
-  border-radius: 2em 2em 0 0;
+  border-radius: 2rem 2rem 0 0;
 }/*# sourceMappingURL=style.css.map */
