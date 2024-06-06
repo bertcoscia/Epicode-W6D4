@@ -48,11 +48,17 @@ $card-border-radius: 2rem;
 $danger: #ff0077;
 $info: #00ffea;
 $light: #f3eeff;
+$epicode-1: #5726c3;
+$epicode-2: #8625a5;
+$epicode-3: #cb2376;
 
 $custom-theme-colors: (
   danger: $danger,
   info: $info,
   light: $light,
+  epicode-1: $epicode-1,
+  epicode-2: $epicode-2,
+  epicode-3: $epicode-3,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
