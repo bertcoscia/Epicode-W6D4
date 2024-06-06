@@ -41,6 +41,10 @@ $btn-padding-x: 0.75rem;
 
 $grid-gutter-width: 0.5rem;
 
+$card-bg: $dark;
+$card-color: $info;
+$card-border-radius: 2rem;
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
