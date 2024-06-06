@@ -46,10 +46,14 @@ $card-color: $info;
 $card-border-radius: 2rem;
 
 $danger: #ff0077;
+$info: #00ffea;
 
-$theme-colors: (
+$custom-theme-colors: (
   danger: $danger,
+  info: $info,
 );
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
