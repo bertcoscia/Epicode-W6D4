@@ -47,10 +47,12 @@ $card-border-radius: 2rem;
 
 $danger: #ff0077;
 $info: #00ffea;
+$light: #f3eeff;
 
 $custom-theme-colors: (
   danger: $danger,
   info: $info,
+  light: $light,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
