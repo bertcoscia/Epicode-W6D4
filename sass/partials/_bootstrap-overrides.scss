@@ -36,6 +36,9 @@ $custom-border-widths: (
 
 $border-widths: map-merge($border-widths, $custom-border-widths);
 
+$btn-padding-y: 2.5rem;
+$btn-padding-x: 0.75rem;
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
