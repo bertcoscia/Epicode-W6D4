@@ -36,8 +36,8 @@ $custom-border-widths: (
 
 $border-widths: map-merge($border-widths, $custom-border-widths);
 
-$btn-padding-y: 2.5rem;
-$btn-padding-x: 0.75rem;
+$btn-padding-x: 2.5rem;
+$btn-padding-y: 0.75rem;
 
 $grid-gutter-width: 0.5rem;
 
